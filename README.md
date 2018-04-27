@@ -43,7 +43,7 @@ esAnagrama(cadena1, cadena2);
 // Salida: VERDADERO
 ```
 
-# 3. Números
+## 3. Números
 
 * **3.1 Dado un número entero, escriba un algoritmo que determine si el número es potencia de dos**
 
