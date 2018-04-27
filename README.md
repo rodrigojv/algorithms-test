@@ -1,4 +1,4 @@
-# Ejercicio para evaluación de candidatos para Developers Java - Nivel Junior
+# Ejercicios de algoritmia para evaluación de candidatos para Developers
 
 ## Requisitos
 
