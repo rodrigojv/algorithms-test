@@ -100,6 +100,8 @@ esAnagrama(cadena1, cadena2);
 ## 3. Números
 
 * **3.1 Dado un número entero, escriba un algoritmo que determine si el número es potencia de dos**
+
+```javascript
 int n=55;
 int c=0;int m=1;
 if(n==1){
@@ -110,12 +112,13 @@ if(n==1){
     if(m==n)print("es potencia de 2");
   }(m>n);
 }
-```javascript
+/*
 esPotenciaDeDos(4); // VERDADERO
 esPotenciaDeDos(64); // VERDADERO
 esPotenciaDeDos(1); // VERDADERO
 esPotenciaDeDos(0); // FALSO
 esPotenciaDeDos(-1); // FALSO
+*/
 ```
 
 # Forma de entrega
