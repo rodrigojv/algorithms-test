@@ -62,6 +62,9 @@ Ejemplo de anagrama: "Mary" es un anagrama de "Army"
 
 
 ***********
+
+```javascript
+
 String c1="roma";
 String c2="amor";
 int cant1,cant2;
@@ -85,12 +88,12 @@ else
 }
 if(b==1)print("true");
 
-```javascript
-cadena1 = "Mary";
+
+/*cadena1 = "Mary";
 cadena2 = "Army";
 
 esAnagrama(cadena1, cadena2);
-
+*/
 // Salida: VERDADERO
 ```
 
