@@ -50,6 +50,12 @@ print("el producto mas grande es "+r);
 
 ```
 
+**Evaluación:** 
+
+No se consideraron correctamente los números negativos, la multiplicación entre dos negativos y un positivo podía haber arrojado un número más grande que la múltiplicación de los 3 positivos más grandes.
+
+3/5 puntos
+
 ## 2. Cadena de caractéres
 
 * **2.1 Dado dos palabras o cadenas, escribir un algoritmo que retorne VERDADERO si la segunda palabra es un anagrama de la primera**
@@ -96,6 +102,14 @@ esAnagrama(cadena1, cadena2);
 */
 // Salida: VERDADERO
 ```
+**Evaluación:**
+
+Se buscan las letras de la primera palabra en la segunda, el proceso debería ser inverso también, ya que puede darse el caso
+de que una letra aparezca en la segunda palabra pero no en la primera.
+
+Ejemplo: "fueeral" y "realfun"
+
+2/3 puntos
 
 ## 3. Números
 
@@ -120,6 +134,12 @@ esPotenciaDeDos(0); // FALSO
 esPotenciaDeDos(-1); // FALSO
 */
 ```
+
+**Evaluación:**
+
+Faltó ajustar un poco la estructura de control while con la expresión para continuar el while, tenía que ser `do{...}while(m < n)`
+
+1/2 puntos
 
 # Forma de entrega
 
